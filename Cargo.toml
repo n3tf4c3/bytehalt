@@ -39,7 +39,7 @@ subtle = "2"
 data-encoding = "2"
 getrandom = "0.2"
 qrcode = { version = "0.14", default-features = false, features = ["svg"] }
-rusqlite = { version = "0.37", features = ["bundled"] }
+rusqlite = { version = "0.43", features = ["bundled"] }
 windows-sys = { version = "0.61.2", features = [
     "Win32_Foundation",
     "Win32_Security",
